@@ -118,3 +118,15 @@ li {
   font-size: 0.8rem;
   line-height: 18px;
 }
+
+@media (max-width: 600px) {
+  #bottom-left, #bottom-right {
+  width: 100%; 
+  }
+
+  #card {
+  height: auto;
+  width: 100%; 
+  }
+}
+
